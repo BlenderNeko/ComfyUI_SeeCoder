@@ -1,8 +1,8 @@
 
 import folder_paths
 import torch
-from seecoder import SemanticExtractionEncoder, QueryTransformer, Decoder
-from swin import SwinTransformer
+from .seecoder import SemanticExtractionEncoder, QueryTransformer, Decoder
+from .swin import SwinTransformer
 import safetensors.torch
 import os
 import sys
