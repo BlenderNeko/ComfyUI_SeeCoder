@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath(__file__)), "co
 
 import comfy.model_management
 
-folder_paths.folder_names_and_paths["seecoder"] = ([os.path.join(folder_paths.models_dir, "seecoders")], folder_paths.supported_ckpt_extensions)
+folder_paths.folder_names_and_paths["seecoder"] = ([os.path.join(folder_paths.models_dir, "seecoders")], folder_paths.supported_pt_extensions)
 
 _swine_config = {
     "embed_dim" : 192, 
